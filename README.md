@@ -8,3 +8,10 @@ The purpose of this buildpack is to be used in testing CF
 tools and see how said tools deal with apps that fail to 
 properly stage.
 
+Usage:
+
+Put the buildpack url in your manifest.yml
+
+    applications:
+    - name: test-app
+      buildpack:  
